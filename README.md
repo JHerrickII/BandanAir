@@ -1,2 +1,1 @@
-# BandanAir
-The BandanAir Website
+# Bandanair

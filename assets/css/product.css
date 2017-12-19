@@ -1,0 +1,190 @@
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.slide {
+	display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+/* Position the next button to the right */
+.next {
+	right: 0;
+	border radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	padding: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+/* Number text */
+.numbertext {
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+/* fading animation */
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+.product-name {
+	text-rendering: optimizeLegibility;
+	font-size: 30px!important;
+	font-weight: bold;
+}
+
+.details {
+	text-rendering: optimizeLegibility;
+	font-size: 20px!important;
+	font-weight: bold;
+	font-color: black;
+}
+
+.price {
+	text-rendering: optimizeLegibility;
+	font-size: 20px!important;
+	font-color: black;
+	font-weight: normal;
+}
+
+.a-size-medium {
+	text-rendering: optimizeLegibility;
+	font-size: 20px!important;
+	line-height: 1.255!important;
+	font-weight: bold;
+}
+
+.a-color-success {
+	color: #008a00!important;
+}
+
+.a-color-price {
+	color: #B12704!important;
+}
+
+#prodDetails .prodDetTable {
+	table-layout: fixed;
+	border-spacing: 0;
+	padding: 0;
+}
+
+#prodDetails .prodDetSectionEntry {
+	width: 50%!important;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+table.a-keyvalue td, table.a-keyvalue th {
+	padding: 7px 14px 6px;
+	border-top: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
+}
+
+table.a-keyvalue th {
+	background-color: #f3f3f3;
+	font-weight: bold;
+}
+
+.a-size-base {
+	font-size: 16px!important;
+	line-height: 19px!important;
+}
+
+.a-color-secondary {
+	color: #555!important;
+}
+
+th {
+	text-align: left;
+}
+
+td, th {
+	vertical-align: top;
+	display: table-cell;
+}
+
+
+table.a-keyvalue {
+	border-bottom: 1px solid #e7e7e7;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table: last-child {
+	margin-bottom: 0!important;
+}
+
+table {
+	display: table;
+	border-color: grey;
+}
+
+
